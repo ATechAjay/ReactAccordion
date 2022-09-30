@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Box from "./Box";
+import "./App.css"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          return (
+                    <div className="container">
+                              <section className="parent">
+                                        <Box title={"Box - 1"} />
+                              </section>
+
+                              <section className="parent">
+                                        <Box title={"Box - 2"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box -3"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box - 4"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box - 5"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box - 6"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box - 7"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box - 8"} />
+                              </section>
+                              <section className="parent">
+                                        <Box title={"Box - 9"} />
+                              </section>
+                    </div>
+          )
 }
 
 export default App;
