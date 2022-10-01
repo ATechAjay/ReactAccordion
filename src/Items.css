@@ -1,0 +1,11 @@
+.itemsContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+}
+
+.items {
+       background: dodgerblue;
+          /* padding: 20px; */
+          /* display: flex; */
+}
